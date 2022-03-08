@@ -12,13 +12,15 @@ The purpose of this analysis is to determine if the assessment of the creditwort
 
 ### II. Dataset used and prediction variables:
 Used dataset of historical lending activity from a peer-to-peer lending services company with the following input features:
-      - loan_size
-      - interest_rate
-      - borrower_income
-      - debt_to_income
-      - num_of_accounts
-      - derogatory_marks
-      - total_debt
+```
+      * loan_size
+      * interest_rate
+      * borrower_income
+      * debt_to_income
+      * num_of_accounts
+      * derogatory_marks
+      * total_debt
+```
       
 The output is `loan_status` column where 0 represents Healthy loans and 1 represents high risk loans
 
